@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuRefrescar"
+        android:checkable="true"
+        android:icon="@mipmap/ic_refrescar"
+        android:title="@string/menu_refrescar"
+
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menuCerrar"
+        android:icon="@mipmap/ic_cerrar"
+        android:orderInCategory="102"
+        android:title="@string/menu_cerrar" />
+
+
+</menu>

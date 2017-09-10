@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/asun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="30dp"
+            android:text="Asunto:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/rem"
+            app:layout_constraintHorizontal_bias="0.026"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.646" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remitente:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@+id/id_remitente_main2"
+            android:layout_alignBottom="@+id/id_remitente_main2"
+            android:layout_alignLeft="@+id/asun"
+            android:layout_alignStart="@+id/asun" />
+
+        <TextView
+            android:id="@+id/id_asunto_main2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/asun"
+            android:layout_alignBottom="@+id/asun"
+            android:layout_toEndOf="@+id/asun"
+            android:layout_toRightOf="@+id/asun"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10px"
+            android:paddingRight="30px"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_remitente_main2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="39dp"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingLeft="10px"
+            android:paddingRight="30px"
+            android:text="wrap_content"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_mensaje_main2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/asun"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/asun"
+            android:layout_below="@+id/asun"
+            android:layout_marginTop="61dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:paddingRight="30px"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</LinearLayout>
+

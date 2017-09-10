@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zmail</string>
+    <string name="menu_cerrar">Close</string>
+    <string name="menu_refrescar">Reload</string>
+</resources>
